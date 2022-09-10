@@ -1,0 +1,13 @@
+name = "lapce-lua"
+display-name = "lua"
+description = "Lua for Lapce: powered by Sumneko's Lua Language Server"
+version = "0.0.1"
+author = "panekj"
+repository = "panekj/lapce-lua"
+wasm = "lapce-lua.wasm"
+
+[configuration]
+language_id = "lua"
+
+[configuration.options.binary]
+args = ["-E", "-e", "main.lua"]
